@@ -1,0 +1,19 @@
+<p>teszt works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let c of testdata">
+            <td>{{ c.id }}</td>
+            <td>{{ c.manufacturer }}</td>
+            <td>{{ c.type }}</td>
+            <td>{{ c.price }}</td>
+        </tr>
+    </tbody>
+</table>
